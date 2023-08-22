@@ -15,3 +15,9 @@ if (2 + 4 < 7) {
 let result1 = 2 + 4 < 7 ? 'Мало' : 'Много'
 
 console.log(result1)
+
+let login = 'Админ'
+
+let message = login == 'Сотрудник' ? 'Привет' : login == 'Админ' ? 'Здравствуйте' : login == '' ? 'Нет логина' : ''
+
+console.log(message)
