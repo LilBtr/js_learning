@@ -1,7 +1,7 @@
 const btn1 = document.getElementById('btn1')
 
 btn1.onclick = () => {
-	let a = 3
+	let a = prompt('Число:')
 
 	switch (a) {
 		case 4:
